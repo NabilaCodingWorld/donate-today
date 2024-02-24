@@ -9,7 +9,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 550px;
+  height: 554px;
 }
 
 .head {
@@ -32,11 +32,140 @@ header {
 }
 
 .primary {
-  margin-bottom: 176px;
+  /* margin-bottom: 176px; */
   background: #ff5959;
   color: white;
   font-weight: bold;
   border: 0;
   padding: 10px 30px;
   border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 800;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.title-text {
+  text-align: center;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.title-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 400px;
+  font-weight: bolder;
+  font-size: x-large;
+  gap: 20px;
+}
+
+.title-tk {
+  color: #707070;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.title-tk-exceptional {
+  color: #ff5959;
+  background-color: #ffeeee;
+  border-radius: 5px;
+  padding: 20px;
+  border: 2px solid #ff5959;
+}
+
+hr {
+  margin: 0 500px;
+}
+
+.title-text-1 {
+  text-align: center;
+  color: gray;
+  /* margin-bottom: px; */
+}
+
+.card {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  margin: 80px 200px;
+  /* margin: 40px 100px; */
+}
+
+.card-design {
+  background: #dee3e4;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.card-design-1 {
+  background: #ecd2d2;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.card-design-2 {
+  background: #e7c1c1;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.card-text {
+  margin-bottom: 8px;
+}
+
+.card-description {
+  color: gray;
+}
+
+.donation {
+  display: flex;
+  align-items: center;
+  margin: 30px 100px;
+  gap: 30px;
+}
+
+.donate-text {
+  color: gray;
+}
+
+.photo {
+  width: 500px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+form {
+  margin: 50px 400px;
+  background-color: #fff4d6;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+footer {
+  background: black;
+}
+
+.footer-head {
+  text-align: center;
+  color: #ff5959;
+  margin-bottom: 8px;
+  font-weight: bolder;
+}
+
+.footer-text {
+  color: white;
+  text-align: center;
+}
+
+.footer-function {
+  padding: 40px 0;
 }
